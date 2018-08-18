@@ -123,6 +123,7 @@ public class Page_Creator extends JFrame {
 					div = CreateCol(Integer.parseInt(sizeCol));
 					c = col;
 					c.setTextColumn(div);
+					//test
 					textAreaPage.setText(textAreaPage.getText() + c.getTextColumn() + "\r\n");
 				}
 			}
